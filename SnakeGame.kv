@@ -1,0 +1,15 @@
+#:kivy 1.0.9
+
+<BodySection>:
+    size: 50, 50
+    canvas:
+        Color:
+            rgba: self.color
+        Ellipse:
+            pos: self.pos
+            size: self.size
+            angle_start: self.angle_start
+            angle_end: self.angle_end
+
+<SnakeGame>:
+    
